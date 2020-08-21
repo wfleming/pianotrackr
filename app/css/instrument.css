@@ -1,0 +1,126 @@
+/* ---- table customizations-------------------------------------------------- */
+
+table {
+  clear: both;
+}
+
+table caption {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  color: rgb(144,144,144);
+  font: 1.25em/1.0em "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+table thead th {
+  color: rgb(144,144,144);
+}
+
+
+
+/* ---- instrument info (show) ---------------------------------------------- */
+
+#instrumentInfo {
+  margin: 0;
+  padding: 0;
+} 
+
+#instrumentInfo h1 {
+  margin: 0 0 0.2em 0;
+  padding: 0;
+  border-bottom: 2px solid rgb(180,180,180);
+  color: rgb(0,102,153);
+  font: normal 2.25em "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#instrumentInfo table {
+  width: auto;
+  float: right;
+  margin: 0 0.5em 1em 0;
+  padding: 0;
+  border: 1px solid rgb(230,230,230);
+  background-color: rgb(245,245,245);
+}
+
+#instrumentInfo table caption {
+  font: normal 11px/12px Tahoma, "Tebuchet MS", Arial, Helvetica, sans-serif;
+  padding:0;
+  margin: 0 0 0.5em 0;
+  text-align: center;
+  color: rgb(102,102,102);
+}
+
+#instrumentInfo table thead th { 
+  margin: 0;
+  padding: 0 5px;
+  font-weight: bold;
+  text-align: right;
+  border-bottom: 1px solid rgb(94,94,94);
+}
+
+#instrumentInfo table tbody th, #instrumentInfo table tbody td {
+  margin: 0;
+  padding: 4px;
+  text-align: right;
+  border: none;
+}
+
+#instrumentInfo p { 
+  padding: 0;
+  margin: 4px 0 4px 0;
+  font: normal 11px/12px Tahoma, "Tebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#instrumentInfo p.oldDetails { 
+  padding: 0;
+  margin: 0 0 0.5em 1.25em;
+  font: normal 11px/12px Tahoma, "Tebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#instrumentInfo p.details { 
+  padding: 0;
+  margin: 0 0 0.5em 1em;
+  font: normal 14px/16px Tahoma, "Tebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#instrumentInfo p.editLink {
+  padding: 0;
+  margin: 3em 0 0.5em 1em;
+  font: normal 14px/16px Tahoma, "Tebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+#infoNotes { 
+  width: 95%; /* for alignment with other elements on the page */
+  clear: both;
+  margin: 0.5em 0;
+  padding: 0.2em 0.55em 0.5em 0.55em;
+  background: rgb(255,255,204);
+  border: 1px solid rgb(220,220,220);
+}
+
+#infoNotes p {
+  line-height: 1.5em;
+}
+
+/* ---- workload documentation----------------------------------------------- */
+
+#workloadDoc {
+  margin: 0.5em 0 0.75em 0;
+  padding: 0 0.5em 0.5em 0.5em;
+  background-color: rgb(250,250,240);
+  border: 1px solid rgb(240,240,240);
+}
+
+#workloadDoc h4 {
+  margin: 0 0 0 0.25em;
+  padding: 5px 0;
+  color: rgb(150,153,0);
+  font: bold 1.0em/1.3em "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#workloadDoc p {
+  margin: 0 0 0.5em 0;
+  padding: 0;
+  color: rgb(80,80,80);
+  font: 0.7em/1.2em Tahoma, Arial, Helvetica, sans-serif;
+}

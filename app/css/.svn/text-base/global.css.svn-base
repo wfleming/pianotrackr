@@ -1,0 +1,587 @@
+html {}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(204,204,204);
+}
+
+img {
+  border: none;
+}
+
+a, a:link, a:visited {  
+  color: rgb(0,102,153);
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+  color: rgb(201,49,49);
+  text-decoration: underline;
+}
+
+a.add, a.add:link, a.add:visited {
+  color: rgb(100,100,100);
+  padding: 0.25em 0.35em 0.25em 24px;
+  text-decoration: none;
+  background: rgb(248,248,248) url(../images/icons/add.gif) no-repeat 4px center;
+  border: 1px solid rgb(230,230,230);
+}
+
+a.add:hover, a.add:active, a.add:focus {
+  color: rgb(201,49,49);
+  background-color: rgb(252,252,252);
+  background-image: url(../images/icons/add-over.gif);
+  border: 1px solid rgb(225,225,225);
+}
+
+a.edit, a.edit:link, a.edit:visited {
+  margin-top: 10em;
+  color: rgb(80,80,80);
+  padding: 0.25em 0.35em 0.25em 24px;
+  text-decoration: none;
+  background: rgb(245,245,245) url(../images/icons/edit.gif) no-repeat 4px center;
+  border: 1px solid rgb(230,230,230);
+}
+
+a.edit:hover, a.edit:active, a.edit:focus {
+  color: rgb(201,49,49);
+  background-color: rgb(250,250,250);
+  background-image: url(../images/icons/edit-over.gif);
+  border: 1px solid rgb(225,225,225);
+}
+
+a.delete, a.delete:link, a.delete:visited {
+  margin-top: 10em;
+  color: rgb(80,80,80);
+  padding: 0.25em 0.35em 0.25em 24px;
+  text-decoration: none;
+  background: rgb(245,245,245) url(../images/icons/delete.gif) no-repeat 2px center;
+  border: 1px solid rgb(230,230,230);
+}
+
+a.delete:hover, a.delete:active, a.delete:focus {
+  color: rgb(201,49,49);
+  background-color: rgb(250,250,250);
+  background-image: url(../images/icons/delete-over.gif);
+  border: 1px solid rgb(215,215,215);
+}
+
+a.editSmall, a.editSmall:link, a.editSmall:visited {
+  padding-left: 16px;
+  background-image: url(../images/icons/edit_sm.gif);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+/* ---- header ---------------------------------------------------------------- */
+
+#headContainer {
+  background: rgb(170,170,170) url(../images/head/head_bg.gif) repeat-x center top;
+}
+
+
+/* ---- branding -------------- */
+
+#branding {
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 45%;
+  background: url(../images/head/head_logo.png) no-repeat right center;
+}
+
+.ie #branding { background-image: url(../images/head/head_logo.gif); }
+
+#branding h1 {
+  padding: 0;
+  margin: 0;
+  height: 74px;
+  text-indent: -9999em;
+  font: bold 2em "Trebuchet MS", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#branding h1 a {
+  display: block;
+  height: 100%;
+}
+
+/* ---- head authentication -------- */
+
+#user {
+  height: 50px;
+  margin: 0 0 0 50%;
+  padding: 0;
+  position: relative;
+}
+
+#user p {
+  position: absolute;
+  bottom: 10px;
+  padding: 0;
+  margin: 0;
+  font: normal 0.90em "Trebuchet MS", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#user label {
+  margin-right: 15px;
+}
+
+#user form input.textfield {
+  width: 90px;
+  border: none;
+  padding: 4px 0 2px 8px;
+  font: normal 0.75em Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+  background: rgb(255,255,255) url(../images/body/form-textfield_bg.gif) no-repeat left top;
+}
+
+#user form input.button {
+  font: normal 0.75em Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#user form label input.imgButton {
+  vertical-align: middle;
+  padding-bottom: 3px;
+}
+
+#user a.logout, #user logout a.logout:link, #user logout a.logout:visited {
+  margin-left: 1.0em;
+  font: normal 0.75em Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+/* ---- tabs -------------- */
+
+#tabs {
+  height: 24px;
+  margin: 0 0 0 50%;
+  padding: 0;
+}
+
+
+#tabs ul {
+  margin: 0;
+  padding: 0;
+  height: 24px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#tabs ul li {
+  list-style-type: none;
+  margin: 0 1px 0 0;
+  padding: 0;
+  float: left;
+  width: 91px;
+  height: 24px;
+  font: normal 11px Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+  background: url(../images/head/tab_off.gif) no-repeat center bottom;
+}
+
+#tabs ul li.active {
+  background: url(../images/head/tab_on.gif) no-repeat center bottom;
+}
+
+#tabs ul li a, #tabs ul li a:link, #tabs ul li a:visited {
+  display: block;
+  height: 20px;
+  padding: 5px 0 0 0;
+  margin: 0;
+  color: rgb(0,0,0);
+  text-decoration: none;
+}
+
+#tabs ul li a:hover, #tabs ul li a:active, #tabs ul li a:focus {
+  color: rgb(255,255,235);
+  font-weight:bold;
+  text-decoration: underline;
+}
+
+
+/* ---- bar that does nothing ---------------------------------------------------- */
+
+div.bar {
+  margin: 0;
+  padding: 0;
+  border: 1px solid;
+  border-bottom-color: rgb(153,153,153);
+  border-top-color: rgb(255,255,255);
+  border-right: none;
+  border-left: none;
+  text-align: center;
+  background: rgb(240,240,240) url(../images/body/bg_navbar_btn.gif) repeat-x 0 -20px;
+}
+
+div.bar p {
+  padding: 0;
+  margin: 0;
+  font: normal 0.75em "Trebuchet MS", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+
+/* ---- main body divisions (backgrounds and width)------------------------- */
+
+#mainContainer {
+  padding: 0em;
+  margin: 0;
+  background: rgb(204,204,204) url(../images/body/main_bg.gif) repeat-y center;
+}
+
+#mainContent {
+  width: 796px;
+  margin: 0 auto;
+  padding: 0em;
+}
+
+#contentLeft {
+  width: 70%;
+  float: left;
+  padding: 2% 0 0 4%;
+}
+
+/* ---- global styles ---------------------------------------------------- */
+
+
+#mainContent p {
+  margin: 0 0 1.0em 0;
+  padding: 0;
+  font: normal 0.9em/1.2em "Trebuchet MS", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#mainContent h1 {
+  letter-spacing: -1px;
+  margin: 0 0 1em 0;
+  padding: 0;
+  color: rgb(0,102,153);
+  font: normal 2.0em/1.2em "Trebuchet MS", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#mainContent h2 {
+  margin: 0 0 1em 0 ;
+  padding: 0;
+  letter-spacing: -1px;
+  color: rgb(80,80,80);
+  font: 1.5em/1.5em "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#mainContent h3 {
+  margin: 1em 0 0 0;
+  padding: 0;
+  color: rgb(0,102,153);
+  font: normal 1.1em "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#mainContent .info {
+  margin: 0;
+  padding: 0;
+  color: rgb(100,100,100);
+}
+
+
+/* ---- form elements --------- */
+
+form p {
+  margin: 0 0 0.25em 0;
+  padding: 0;
+}
+
+form input.textfield {
+  width:120px;
+  padding: 4px 0 2px 8px;
+  margin: 0;
+  border: 1px solid rgb(228,228,228);
+  border-top: none;
+  border-left: none;
+  font: normal 0.70em Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+  background: rgb(255,255,255) url(../images/body/form-textfield_bg.gif) no-repeat left top;
+}
+
+form input.textfieldWide {
+  width:300px;
+  padding: 4px 0 2px 8px;
+  margin: 0;
+  border: 1px solid rgb(228,228,228);
+  border-top: none;
+  border-left: none;
+  font: normal 11px Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+  background: url(../images/body/form-textfield_bg.gif) no-repeat left top;
+}
+
+form input.button {
+  font: normal 11px Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+form p select {
+    font: normal 0.75em Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+form p input.textfield {
+    font: normal 0.75em Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+form textarea {
+  width: 400px;
+  padding: 4px 0 2px 8px;
+  margin: 0;
+  border: 1px solid rgb(228,228,228);
+  border-top: none;
+  border-left: none;
+  font: normal 0.8em Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+  margin-bottom: 1em;
+  background: rgb(255,255,255) url(../images/body/form-textarea_bg.png) no-repeat left top;
+}
+
+#mainContent form p.formCheckboxRow {
+  margin: 0 0 1em 0;
+  padding: 5px;
+}
+
+#mainContent form p.formCheckboxRow input {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+#mainContent form p.buttonRow {
+  margin: 1.5em 0 1em 0.5em;
+}
+
+#mainContent form p.create {
+  margin: 0 0 0.25em 0;
+  padding: 0 0 0 22px;
+  background: url(../images/icons/add.gif) no-repeat left center;
+}
+
+form p select {
+  margin-left: 1em;
+}
+
+/* --- dictionay lists <dl>s used for non-semantic form alignment ---------- */
+
+form dl {
+  margin: 0;
+  padding: 0;
+}
+
+form dt {
+  float: left;
+  clear: left;
+  text-align: right;
+  margin: 5px 10px 0 0;
+  width: 175px;
+  padding: 0;
+  font: bold 0.75em Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: rgb(70,70,70);
+}
+
+form dd {
+  margin-bottom: 5px;
+  font-family: "Trebuchet MS", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+form dd select {
+  font: normal 0.70em Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+form dd.separate, form dt.separate {
+  margin-bottom: 20px;
+}
+
+
+/* --- filtering widget ---------------------------------------------------- */
+
+#mainContent div.filterWidget {
+  width:94%;  /* for alignment with other elements on the page */
+  margin: 10px 0;
+  padding: 5px 10px;
+  background: rgb(255,255,224);
+  border: 1px solid rgb(220,220,220);
+  clear: both;
+}
+
+#mainContent div.filterWidget p {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0px;
+  word-spacing: 1px;
+  font: normal 11px/1.5em Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#mainContent div.filterWidget p.queryLine {
+  text-align: center;
+  margin: 1.0em 0;
+  padding: 0;
+  font: bold 0.9em/1.2em "Trebuchet MS", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+} 
+
+/* used to insert hidden metadata into tables for the filtering indexer to pick up on */
+.hidden {
+  display:none;
+}
+
+
+/* ---- tables -------------------------------------------------------------- */
+
+/* ---- main -------------- */
+
+table {
+  width: 98%;
+  margin-bottom: 1.5em;
+  border-collapse: collapse;
+}
+table caption {
+  font: 1.5em/1.5em "Trebuchet MS", Tahoma, Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  text-align: left;
+  text-indent: 10px;
+  color: rgb(102,102,102);
+}
+table thead th {
+  padding: 4px 0 4px 5px ;
+  margin:0;
+  text-align: left;
+  font: bold 0.7em/1.2em Tahoma, Arial, Helvetica, sans-serif;
+  color: rgb(124,124,124);
+  border-bottom: 1px solid rgb(155,155,155);
+}
+table tbody tr.odd {
+  background: rgb(250,250,250) url(../images/body/table-home_grey.gif) repeat-x;
+}
+table tbody th, table tbody td {
+  font: 0.7em/1.1em Tahoma, Arial, Helvetica, sans-serif;
+  color: rgb(62,62,62);
+  padding: 8px 5px 8px 5px;
+  margin: 0;
+  text-align: left;
+  border-bottom: 1px solid rgb(225,225,225);
+}
+table a, table a:link, table a:visited {
+  color: rgb(0,102,153);
+  text-decoration: none;
+}
+table a:hover, table a:active, table p a:focus {
+  color: rgb(201,49,49);
+  text-decoration: underline;
+}
+
+/* ---- red -------------- */
+
+table.red thead th {
+  border-bottom: 1px solid rgb(255,165,165);
+}
+table.red tbody tr.odd {
+  background: rgb(255,244,244) url(../images/body/table-home_red.gif) repeat-x;
+}
+table.red tbody th, table.red tbody td {
+  border-bottom: 1px solid rgb(255,215,215);
+}
+table.red a, table.red a:link, table.red a:visited {
+  color: rgb(220,76,76);
+}
+table.red a:hover, table.red a:active, table.red a:focus {
+  color: rgb(201,49,49);
+}
+
+/* ---- orange ----------- */
+
+table.orange thead th {
+  border-bottom: 1px solid rgb(255,202,94);
+}
+table.orange tbody tr.odd {
+  background: rgb(255,248,232) url(../images/body/table-home_orange.gif) repeat-x;
+}
+table.orange tbody th, table.orange tbody td {
+  border-bottom: 1px solid rgb(255,236,184);
+}
+table.orange a, table.orange a:link, table.orange a:visited {
+  color: rgb(230,117,82);
+}
+table.orange a:hover, table.orange a:active, table.orange a:focus {
+  color: rgb(201,49,49);
+}
+
+/* ---- green ------------ */
+
+table.green thead th {
+  border-bottom: 1px solid rgb(182,221,182);
+}
+table.green tbody tr.odd {
+  background: rgb(247,250,247) url(../images/body/table-home_green.gif) repeat-x;
+}
+table.green tbody th, table.green tbody td {
+  border-bottom: 1px solid rgb(216,235,217);
+}
+table.green a, table.green a:link, table.green a:visited {
+  color: rgb(100,144,84);
+}
+table.green a:hover, table.green a:active, table.green a:focus {
+  color: rgb(201,49,49);
+}
+
+
+/* ---- messages -------------------------------------------------------------- */
+
+#mainContent div.messageContainer {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+#mainContent div.messageContainer p {
+  margin: 0;
+  padding: 0;
+  font: normal 0.9em/1em "Trebuchet MS", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+
+/* ---- error -------------- */
+
+#mainContent div.error {
+  margin: 0;
+  padding: 1em;
+  background: rgb(255,235,235) url(../images/icons/error.gif) no-repeat 15px 10px;
+  border: 1px solid rgb(255,204,204);
+}
+
+#mainContent div.error p {
+  margin: 0 20px;
+}
+
+/* ---- message ------------ */
+
+
+#mainContent div.message {
+  margin: 0;
+  padding: 1em;
+  background: rgb(238,255,235) url(../images/icons/message.gif) no-repeat 15px 10px;
+  border: 1px solid rgb(213,255,204);
+}
+
+#mainContent div.message p {
+  margin: 0 20px;
+}
+
+
+/* ---- footer ---------------------------------------------------------------- */
+
+#foot {
+  clear: both;
+  height: 100%;
+  padding-top: 1em;
+  text-align: center;
+  background: rgb(204,204,204) url(../images/foot/content_bottom.gif) no-repeat center top;
+}
+
+#foot p {
+  font: normal 0.8em "Trebuchet MS", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+/*
+#foot a {
+  font-size: 1.1em;
+}
+
+/* ---- special logo for printing only ----------------- */
+
+#printableLogo {
+  display: none;
+}

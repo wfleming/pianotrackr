@@ -1,0 +1,7 @@
+# The core of the system is tracking of pianos and work done on pianos (tunings, voicings, etc.), so this will be the primary feature of the first released version of PianoTrackr. User management with different levels of privileges will also be completed, as this is critical to ensuring the security and usefulness of the application. Support for filing and tracking “work to be done” tickets will also be completed. At least basic reporting capabilities will be completed, with a more robust and customizable reporting system to follow in a later release.
+# Data migration from previous systems (e.g. FileMaker databases) could be made available as a purchasable service in the future. This would almost certainly be highly valuable to any customer with large quantities of data stored in a previously used system.
+# An enhanced reporting module, with more reports and more user-customizable aspects of reports.
+# An accounting and budgeting module would be added, allowing users to store and edit accounts and budgets tied to the rest of the system.
+# A module for tracking stock and tracking items on loan would be added.
+
+Depending on customer needs and preferences, milestones 2-5 could be rearranged so that the customer could get the features want most fastest.

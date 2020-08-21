@@ -1,0 +1,761 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 6776
+>>
+stream
+1 1 1 rg
+/GS1 gs
+164 592 157 -277 re
+f
+164 592 157 -1 re
+f
+0 0 0 RG
+0 J 0 j 1 w 10 M []0 d
+1 i 
+164 592 158 -2 re
+S
+164 590 157 -19 re
+f
+BT
+/TT2 1 Tf
+10 0 0 10 216 577 Tm
+0 0 0 rg
+0 Tc
+0 Tw
+(Instrument)Tj
+ET
+1 1 1 rg
+165 569 156 -241 re
+f
+165 569 m
+322 569 l
+S
+BT
+10 0 0 10 168 555 Tm
+0 0 0 rg
+(brand : String)Tj
+0 -1.3 TD
+(model : String)Tj
+T*
+(serial {PK} : String)Tj
+T*
+(yearBuilt : int)Tj
+T*
+(type : String)Tj
+T*
+(faculty : Person)Tj
+T*
+(location : String)Tj
+T*
+(fac : boolean)Tj
+T*
+(jjwcm : boolean)Tj
+T*
+(comments : String)Tj
+T*
+(retailValue : Float)Tj
+T*
+(replaceValue : Float)Tj
+T*
+(baseWorkload : Integer)Tj
+T*
+(condition : Float)Tj
+T*
+(rebuildingParameters : Float)Tj
+T*
+(climateControl : Float)Tj
+T*
+(usage : Float)Tj
+T*
+(standardOfMaintenance : Float)Tj
+ET
+164 592 158 -278 re
+S
+1 1 1 rg
+196 264 105 -162 re
+f
+196 264 105 -1 re
+f
+196 264 106 -2 re
+S
+196 262 105 -19 re
+f
+BT
+10 0 0 10 232 249 Tm
+0 0 0 rg
+(Person)Tj
+ET
+1 1 1 rg
+197 241 104 -137 re
+f
+197 241 m
+302 241 l
+S
+BT
+10 0 0 10 200 227 Tm
+0 0 0 rg
+(firstName : String)Tj
+T*
+(lastName : String)Tj
+T*
+(phone : String)Tj
+T*
+(email : String)Tj
+T*
+(address : String)Tj
+T*
+(title : String)Tj
+T*
+(middleName : String)Tj
+T*
+(password : String)Tj
+T*
+(username : String)Tj
+T*
+(group : Group)Tj
+ET
+196 264 106 -163 re
+S
+1 1 1 rg
+660 592 71 -43 re
+f
+660 592 71 -1 re
+f
+660 592 72 -2 re
+S
+660 590 71 -19 re
+f
+BT
+10 0 0 10 675 577 Tm
+0 0 0 rg
+(Location)Tj
+ET
+1 1 1 rg
+661 569 70 -20 re
+f*
+661 569 m
+732 569 l
+S
+BT
+10 0 0 10 663.9999 555 Tm
+0 0 0 rg
+(name : String)Tj
+ET
+660 592 72 -44 re
+660 584 m
+322 584 l
+S
+BT
+10 0 0 10 636 564 Tm
+(1..*)Tj
+-30.8 0 TD
+(0..*)Tj
+ET
+492.98 584.04 m
+492.98 582.936 492.084 582.04 490.98 582.04 c
+489.876 582.04 488.98 582.936 488.98 584.04 c
+488.98 585.144 489.876 586.04 490.98 586.04 c
+492.084 586.04 492.98 585.144 492.98 584.04 c
+f*
+1 1 1 rg
+491.98 583.98 m
+491.98 583.428 491.532 582.98 490.98 582.98 c
+490.428 582.98 489.98 583.428 489.98 583.98 c
+489.98 584.532 490.428 584.98 490.98 584.98 c
+491.532 584.98 491.98 584.532 491.98 583.98 c
+f*
+356 568 89 -77 re
+f
+356 568 89 -1 re
+f
+356 568 90 -2 re
+S
+356 566 89 -19 re
+f
+BT
+10 0 0 10 385 553 Tm
+0 0 0 rg
+(Moved)Tj
+ET
+1 1 1 rg
+357 510 88 -19 re
+f
+357 510 m
+446 510 l
+S
+357 545 88 -33 re
+f
+357 545 m
+446 545 l
+S
+BT
+10 0 0 10 359.9999 531 Tm
+0 0 0 rg
+(date : Date)Tj
+0 -1.3 TD
+(comment : String)Tj
+ET
+356 568 90 -78 re
+S
+[5 5 ]0 d
+489 582 m
+446 568 l
+S
+1 1 1 rg
+908 144 111 -47 re
+f
+908 144 111 -1 re
+f
+908 144 m
+1020 144 l
+1020 142 l
+908 142 l
+s
+908 142 111 -19 re
+f
+BT
+10 0 0 10 946.9999 129 Tm
+0 0 0 rg
+(Tuning)Tj
+ET
+1 1 1 rg
+909 121 110 -20 re
+f
+[]0 d
+909 121 m
+1020 121 l
+S
+BT
+10 0 0 10 912 107 Tm
+0 0 0 rg
+(type : String)Tj
+ET
+908 144 112 -48 re
+228 264 m
+228 314 l
+235 302 m
+228 314 l
+221 302 m
+228 314 l
+S
+BT
+10 0 0 10 253 283 Tm
+(responsible for)Tj
+-4.9 -0.9 TD
+(0..1)Tj
+0 2 TD
+(0..*)Tj
+ET
+1 1 1 rg
+756 144 111 -47 re
+f
+756 144 111 -1 re
+f
+756 144 112 -2 re
+S
+756 142 111 -19 re
+f
+BT
+10 0 0 10 769 129 Tm
+0 0 0 rg
+(PitchAdjustments)Tj
+ET
+1 1 1 rg
+757 121 110 -20 re
+f*
+757 121 m
+868 121 l
+S
+BT
+10 0 0 10 760 107 Tm
+0 0 0 rg
+(raise : boolean)Tj
+ET
+756 144 112 -48 re
+S
+1 1 1 rg
+1052 144 119 -71 re
+f
+1052 144 119 -1 re
+f
+1052 144 120 -2 re
+S
+1052 142 119 -19 re
+f
+BT
+10 0 0 10 1087 129 Tm
+0 0 0 rg
+(Procedure)Tj
+ET
+1 1 1 rg
+1053 121 118 -46 re
+f*
+1053 121 m
+1172 121 l
+S
+BT
+10 0 0 10 1056 107 Tm
+0 0 0 rg
+(finishDate : Date)Tj
+0 -1.3 TD
+(procedure : String)Tj
+T*
+(procedureType : String)Tj
+ET
+1052 144 120 -72 re
+S
+1 1 1 rg
+332 48 92 -43 re
+f
+332 48 92 -1 re
+f
+332 48 93 -2 re
+S
+332 46 92 -19 re
+f
+BT
+10 0 0 10 364 33 Tm
+0 0 0 rg
+(Group)Tj
+ET
+1 1 1 rg
+333 25 91 -20 re
+f
+333 25 m
+425 25 l
+S
+BT
+10 0 0 10 335.9999 11 Tm
+0 0 0 rg
+(name {PK} : String)Tj
+ET
+332 48 93 -44 re
+302 101 m
+332 48 l
+319 55 m
+332 48 l
+332 62 m
+332 48 l
+S
+BT
+10 0 0 10 344 82 Tm
+(in)Tj
+-3.1 0.8 TD
+(0..*)Tj
+1.5 -2.6 TD
+(0..1)Tj
+ET
+1 1 1 rg
+604 160 122 -95 re
+f
+604 160 122 -1 re
+f
+604 160 123 -2 re
+S
+604 158 122 -19 re
+f
+BT
+10 0 0 10 617 145 Tm
+0 0 0 rg
+(SpecialGroupTuning)Tj
+ET
+1 1 1 rg
+605 137 121 -72 re
+f*
+605 137 m
+727 137 l
+S
+BT
+10 0 0 10 608 123 Tm
+0 0 0 rg
+(group : Group)Tj
+0 -1.3 TD
+(instrument : Instrument)Tj
+T*
+(date : Date)Tj
+T*
+(performedBy : Person)Tj
+T*
+(comments : String)Tj
+ET
+604 160 123 -96 re
+604 64 m
+425 48 l
+436 57 m
+425 48 l
+437 43 m
+425 48 l
+S
+BT
+10 0 0 10 483.9999 75 Tm
+(for)Tj
+9.7 -3.1 TD
+(0..*)Tj
+-14.3 -1.3 TD
+(1)Tj
+ET
+604 144 m
+302 144 l
+314 151 m
+302 144 l
+314 137 m
+302 144 l
+S
+BT
+10 0 0 10 408 163 Tm
+(performed by)Tj
+17.2 -3.9 TD
+(0..*)Tj
+-26.6 0 TD
+(1)Tj
+ET
+1 1 1 rg
+4 224 99 -95 re
+f
+4 224 99 -1 re
+f
+4 224 100 -2 re
+S
+4 222 99 -19 re
+f
+BT
+10 0 0 10 34 209 Tm
+0 0 0 rg
+(Supplies)Tj
+ET
+1 1 1 rg
+5 201 98 -72 re
+f
+5 201 m
+104 201 l
+S
+BT
+10 0 0 10 7.9999 187 Tm
+0 0 0 rg
+(description : String)Tj
+0 -1.3 TD
+(quantity : String)Tj
+T*
+(cost : Float)Tj
+T*
+(supplyType : String)Tj
+T*
+(general : boolean)Tj
+ET
+4 224 100 -96 re
+S
+1 1 1 rg
+516 368 163 -84 re
+f
+516 368 163 -1 re
+f
+516 368 164 -2 re
+S
+516 366 163 -19 re
+f
+BT
+10 0 0 10 561 353 Tm
+0 0 0 rg
+(WorkToBeDone)Tj
+ET
+1 1 1 rg
+517 345 162 -46 re
+f
+517 345 m
+680 345 l
+S
+BT
+10 0 0 10 519.9999 331 Tm
+0 0 0 rg
+(assignment : Assignment)Tj
+T*
+(date : Date)Tj
+T*
+(description : String)Tj
+ET
+516 368 164 -85 re
+684 464 m
+322 464 l
+334 471 m
+322 464 l
+334 457 m
+322 464 l
+S
+BT
+10 0 0 10 458 483 Tm
+(performed on)Tj
+20.2 -3.9 TD
+(0..*)Tj
+-32.6 0 TD
+(1)Tj
+ET
+684 439 m
+380 400 l
+380 264 l
+302 264 l
+314 271 m
+302 264 l
+314 257 m
+302 264 l
+S
+BT
+10 0 0 10 387 424 Tm
+(performed by)Tj
+27.5 -0.5 TD
+(0..*)Tj
+-34.8 -17.5 TD
+(1)Tj
+ET
+1 1 1 rg
+804 368 129 -82 re
+f
+804 368 129 -1 re
+f
+804 368 130 -2 re
+S
+804 366 129 -19 re
+f
+BT
+10 0 0 10 856 353 Tm
+0 0 0 rg
+(Work)Tj
+ET
+1 1 1 rg
+805 345 128 -46 re
+f*
+805 345 m
+934 345 l
+S
+BT
+10 0 0 10 808 331 Tm
+0 0 0 rg
+(assignment : Assignment)Tj
+0 -1.3 TD
+(date : Date)Tj
+T*
+(timeSpent : Float)Tj
+ET
+804 368 130 -83 re
+804 285 m
+604 208 l
+302 208 l
+314 215 m
+302 208 l
+314 201 m
+302 208 l
+S
+BT
+10 0 0 10 515 227 Tm
+(performed by)Tj
+27.2 3.5 TD
+(0..*)Tj
+-47.3 -7.4 TD
+(1)Tj
+ET
+820 144 m
+820 285 l
+S
+1 1 1 rg
+820 285 m
+827 273 l
+813 273 l
+f*
+820 285 m
+827 273 l
+813 273 l
+h
+908 144 m
+908 285 l
+S
+908 285 m
+915 273 l
+901 273 l
+f*
+908 285 m
+915 273 l
+901 273 l
+h
+1116 144 m
+1116 224 l
+934 285 l
+S
+934 285 m
+947 288 l
+943 275 l
+f*
+934 285 m
+947 288 l
+943 275 l
+s
+684 496 143 -56 re
+f
+684 496 143 -1 re
+f
+684 496 144 -2 re
+S
+684 494 143 -19 re
+f
+BT
+10 0 0 10 725 481 Tm
+0 0 0 rg
+(Assignments)Tj
+ET
+1 1 1 rg
+685 473 142 -33 re
+f
+685 473 m
+828 473 l
+S
+BT
+10 0 0 10 687.9999 459 Tm
+0 0 0 rg
+(instrument {PK} : Instrument)Tj
+0 -1.3 TD
+(performedBy {PK} : Person)Tj
+ET
+684 496 144 -57 re
+680 368 m
+724 408 l
+724 439 l
+S
+BT
+10 0 0 10 672 383 Tm
+(0..*)Tj
+3.4 3.6 TD
+(1)Tj
+ET
+772 439 m
+772 408 l
+804 368 l
+S
+BT
+10 0 0 10 784 419 Tm
+(1)Tj
+1.3 -3.5 TD
+(0..*)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+>>
+/ExtGState <<
+/GS1 5 0 R
+>>
+>>
+endobj
+5 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+7 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 770
+/CapHeight 718
+/Descent -229
+/Flags 32
+/FontBBox [-166 -225 1000 931]
+/FontName /Helvetica
+/ItalicAngle 0
+/StemV 88
+/XHeight 523
+/StemH 88
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 125
+/Widths [278 0 0 0 0 0 0 0 0 0 389 0 0 0 278 0 
+556 556 0 0 0 0 0 0 0 0 278 0 0 0 0 0 
+0 667 667 722 722 0 611 778 0 278 0 667 556 833 722 778 
+667 0 0 667 611 0 667 944 0 0 0 0 0 0 0 0 
+0 556 556 500 556 556 278 556 556 222 222 500 222 833 556 556 
+556 556 333 500 278 556 500 722 0 500 0 334 0 334 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Helvetica
+/FontDescriptor 7 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 6 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+8 0 obj
+<<
+/S /D
+>>
+endobj
+9 0 obj
+<<
+/Nums [0 8 0 R ]
+>>
+endobj
+6 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R]
+/Count 1
+/MediaBox [0 0 1176 616]
+>>
+endobj
+10 0 obj
+<<
+/CreationDate (D:20070327010750-04'00')
+/ModDate (D:20070327010750-04'00')
+/Producer (PSNormalizer.framework)
+>>
+endobj
+11 0 obj
+<<
+/Type /Catalog
+/Pages 6 0 R
+/PageLabels 9 0 R
+>>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000007725 00000 n 
+0000000016 00000 n 
+0000006844 00000 n 
+0000007273 00000 n 
+0000006939 00000 n 
+0000007870 00000 n 
+0000007079 00000 n 
+0000007805 00000 n 
+0000007832 00000 n 
+0000007952 00000 n 
+0000008084 00000 n 
+trailer
+<<
+/Size 12
+/Root 11 0 R
+/Info 10 0 R
+/ID [<7c4165242b37b96ecdc1530caa652906><7c4165242b37b96ecdc1530caa652906>]
+>>
+startxref
+8152
+%%EOF

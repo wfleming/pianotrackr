@@ -1,0 +1,356 @@
+/* ---- front links -------------- */
+
+#reports h1 {
+  padding-left: 42px;
+  background: url(../images/icons/report_gen_lg.gif) no-repeat left center;
+}
+
+#reports ul {
+  text-align: left;
+  margin: 50px 0 0 50px;
+  padding: 0;
+}
+
+#reports ul li {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+#reports ul li a, #reports ul li a:link, #reports ul li a:visited {
+  margin: 0;
+  padding: 3px 0 10px 0;
+  display: block;
+  color: rgb(70,70,70);
+  text-decoration: none;
+  font: normal 1.15em "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+#reports ul li a:hover, #reports ul li a:active, #reports ul li a:focus {
+  color: rgb(201,49,49);
+  text-decoration: underline;
+}
+
+#reports ul li.week {
+  padding: 0 0 0 35px;
+  background: url(../images/icons/report_week.gif) no-repeat left top;
+}
+#reports ul li.month {
+  padding: 0 0 0 35px;
+  background: url(../images/icons/report_month.gif) no-repeat left top;
+}
+#reports ul li.custom {
+  padding: 0 0 0 35px;
+  background: url(../images/icons/report_custom.gif) no-repeat left top;
+}
+
+/* ---- table customization -------------- */
+
+table caption {
+  padding: 0.5em;
+  text-align: center;
+  text-indent: 0;
+  font: bold 1.0em/1.2em "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: rgb(0,85,128);
+}
+
+/* --- report options ---------------------------------------------------- */
+
+#mainContent div.reportOptions {
+  padding: 15px;
+  margin-bottom: 1em;
+  text-align: center;
+  background: rgb(255,255,224);
+  border: 1px solid rgb(220,220,220);
+  clear: both;
+}
+
+#mainContent div.reportOptions p {
+  margin: 0;
+  padding: 0;;
+  letter-spacing: 0px;
+  word-spacing: 1px;
+  font: normal 11px/2.5em Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#mainContent div.reportOptions form p select, #mainContent div.reportOptions form p input.textfield {
+    font: normal 11px Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#mainContent div.reportOptions form p select, #mainContent div.reportOptions form p img {
+    margin-right: 1em;
+}
+
+#mainContent div.reportOptions form p input.textfield {
+  width: 100px;
+}
+
+#mainContent div.reportOptions form p input.imgButton {
+  vertical-align: middle;
+  padding: 0px 10px 5px 0px;
+}
+
+/* --- calendar widget ---------------------------------------------------- */
+
+/* The main calendar widget.  DIV containing a table. */
+
+.calendar {
+  position: relative;
+  display: none;
+  border: 1px solid rgb(90,90,90);
+  font-size: 11px;
+  cursor: default;
+  color: rgb(50,50,50);
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.calendar table {
+  width: 200px;
+  border: none;
+  font-size: 11px;
+  cursor: default;
+  background-color: rgb(255,255,255);
+  color: rgb(50,50,50);
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+  padding-bottom:0;
+}
+
+/* Header part -- contains navigation buttons and day names. */
+
+.calendar .button { /* "<<", "<", ">", ">>" buttons have this class */
+  text-align: center;
+  padding: 2px;
+  border: none;
+  background-color: rgb(180,180,180);
+}
+
+.calendar .nav {
+  background-color: rgb(180,180,180);
+/*  background: rgb(180,180,180) url(../images/icons/calendar_arrow.gif) no-repeat right bottom; */
+}
+
+.calendar thead .title { /* This holds the current "month, year" */
+  font-weight: bold;
+  padding: 1px;
+  border: none;
+  background-color: rgb(180,180,180);
+  color: rgb(255,255,255);
+  text-align: center;
+}
+
+.calendar thead .headrow { /* Row <TR> containing navigation buttons */
+}
+
+.calendar thead .daynames { /* Row <TR> containing the day names */
+}
+
+.calendar thead .name { /* Cells <TD> containing the day names */
+  border-bottom: 1px solid rgb(190,190,190);
+  padding: 2px;
+  text-align: center;
+  background-color: rgb(230,230,230);
+  color: rgb(140,140,140);
+}
+
+.calendar thead .weekend { /* How a weekend day name shows in header */
+  color: rgb(143,143,143);
+}
+
+.calendar thead .hilite { /* How do the buttons in header appear when hover */
+  background-color: rgb(215,205,205);
+} 
+
+/* The body part -- contains all the days in month. */
+
+.calendar tbody .day { /* Cells <TD> containing month days dates */
+  font-size: 1em;
+  width: 2em;
+  text-align: right;
+  padding: 2px 4px 2px 2px;
+}
+.calendar tbody .day.othermonth {
+  font-size: 1em; /* was 80 */
+  color: rgb(200,200,200);
+}
+.calendar tbody .day.othermonth.oweekend {
+  color: rgb(200,200,200);
+}
+
+.calendar table .wn {
+  padding: 2px 3px 2px 2px;
+  border-right: none;
+  background: purple;
+  color: red;
+}
+
+.calendar tbody .rowhilite td {
+  background-color: rgb(238,238,238);
+}
+
+.calendar tbody td.weekend { /* Cells showing weekend days */
+  color: rgb(183,123,123);
+}
+
+.calendar tbody td.hilite {  /* Hovered cells <TD> */
+  color: rgb(255,255,255);
+  background-color: rgb(50,152,254);
+}
+
+.calendar tbody td.selected { /* Cell showing selected date */
+  font-weight: bold;
+  color: rgb(180,0,0);
+  border: 2px solid rgb(103,0,0);
+  background-color: rgb(248,248,248);
+}
+
+
+.calendar tbody td.today { /* Cell showing today date */
+  font-weight: bold;
+  color: rgb(0,0,0);
+  background-color: rgb(240,240,240);
+}
+
+.calendar tbody td.disabled {
+   color: rgb(220,220,220);
+ }
+
+.calendar tbody .emptycell { /* Empty cells (the best is to hide them) */
+  padding: 0;
+  margin: 0;
+  visibility: hidden;
+}
+
+.calendar tbody .emptyrow { /* Empty row (some months need less than 6 rows) */
+  display: none;
+}
+
+/* The footer part -- status bar and "Close" button */
+
+.calendar tfoot .footrow { /* The <TR> in footer (only one right now) */
+  padding: 2px 4px 2px 2px;
+}
+
+.calendar tfoot .ttip { /* Tooltip (status bar) cell <TD> */
+  background: rgb(230,230,230);
+  padding: 1px;
+  border-top: 1px solid rgb(190,190,190);
+  color: rgb(100,100,100);
+  text-align: center;
+}
+
+/* Combo boxes (menus that display months/years for direct selection) */
+
+.calendar .combo {
+  position: absolute;
+  display: none;
+  width: 4em;
+  top: 0px;
+  left: 0px;
+  cursor: default;
+  border: 1px solid rgb(180,180,180);
+  background: rgb(255,255,255);
+  color: rgb(100,100,100);
+  font-size: 90%;
+  padding: 0px;
+  z-index: 100;
+}
+
+.calendar .combo .label,
+.calendar .combo .label-IEfix {
+  text-align: center;
+  padding: 0;
+}
+
+.calendar .combo .label-IEfix {
+  width: 4em;
+}
+
+.calendar .combo .active {
+  padding: 0px;
+  background-color: rgb(223,223,223);
+}
+
+.calendar .combo .hilite {
+  color: rgb(255,255,255);
+  background-color: rgb(50,152,254);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- http://www.hedgerwow.com/360/bugs/css-select-free.html ------ */
+
+.select-free {
+   position:absolute;
+   z-index:10;
+   cursor:normal;
+   overflow:hidden;
+   width:33em;
+}
+.select-free iframe {
+   display:none;
+   display/**/:block;
+   position:absolute;
+   top:0;
+   left:0;
+   z-index:-1;
+   filter:mask();
+   width:3000px;
+   height:3000px
+}
+
+
+/* --- date chooser ---------------------------------------------------- */
+
+.dateChooser td {
+    cursor: pointer;
+    text-align: center;
+}
+.dateChooser td.dateChooserActive:hover {
+    color: rgb(255,255,255);
+    background-color: rgb(10,36,106);;
+}
+.dateChooser td.dateChooserActiveToday {
+    border: 1px solid rgb(205,0,0);
+}
+.dateChooser th {
+    color: rgb(255,255,255);
+    width: 18px;
+    border: none;
+    background-color: rgb(170,170,170);
+}
+.dateChooser option, .dateChooser select {
+    font-size: 10px;
+}
+.dateChooser {
+    border: 1px solid rgb(170,170,170);
+    background: rgb(255,255,255);
+    padding: 1px;
+}
+.dateChooser table {
+    width: 160px;
+}
+
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pianotrackr/!svn/ver/291/app/templates/group
+END
+_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pianotrackr/!svn/ver/291/app/templates/group/_form.tpl
+END
+listall.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/pianotrackr/!svn/ver/283/app/templates/group/listall.tpl
+END
+edit.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pianotrackr/!svn/ver/58/app/templates/group/edit.tpl
+END

@@ -1,0 +1,12 @@
+#contentLeft p.welcome {
+  letter-spacing: -1px;
+  color: rgb(80,80,80);
+  font: 1.25em/1.2em "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+/* ---- table customizations----------------------------------------------------- */
+
+table thead th {
+  color: rgb(184,184,184);
+}

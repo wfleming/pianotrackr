@@ -1,0 +1,31 @@
+#headContainer {
+  display: none;
+}
+
+.bar {
+  display: none;
+}
+
+#sideBar {
+  display: none;
+}
+
+#foot {
+  display: none;
+}
+
+.filterWidget {
+  display: none;
+}
+
+.reportOptions {
+  display: none;
+}
+
+#contentLeft {
+  width: 95%;
+}
+
+#printableLogo {
+  display: block;
+}

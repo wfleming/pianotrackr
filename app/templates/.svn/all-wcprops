@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pianotrackr/!svn/ver/291/app/templates
+END
+message.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pianotrackr/!svn/ver/283/app/templates/message.tpl
+END
+header.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pianotrackr/!svn/ver/291/app/templates/header.tpl
+END
+error.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/pianotrackr/!svn/ver/283/app/templates/error.tpl
+END
+filterWidget.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/pianotrackr/!svn/ver/264/app/templates/filterWidget.tpl
+END
+footer.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pianotrackr/!svn/ver/283/app/templates/footer.tpl
+END

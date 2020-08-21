@@ -1,0 +1,121 @@
+/* ---- side bar ---------------------------------------------------------------- */
+
+#sideBar {
+  text-align: center;
+  margin: 0 0 0 77%;
+  padding: 3% 0 1em 1%;
+  width: 20%;
+  border-left: 1px solid rgb(220,220,220);
+}
+
+#sideBar h3 {
+  margin: 0;
+  padding: 0;
+  color: rgb(100,100,100);
+  font: normal 1.10em "Trebuchet MS", Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+
+/* ---- side top links ---------- */
+
+#sideBar ul {
+  text-align: left;
+  margin: 50px auto;
+  padding: 0;
+  width: 120px;
+}
+
+#sideBar ul li {
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+}
+
+#sideBar ul li a, #sideBar ul li a:link, #sideBar ul li a:visited {
+  display: block;
+  height: 100%;
+  padding: 33px 0 0 0;
+  margin: 0 0 20px 0;
+  color: rgb(70,70,70);
+  text-decoration: none;
+  font: normal 0.85em/1em "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+/* ---- side bar form ---------- */
+
+#sideBar form input.textfield {
+  width:70px;
+  border: 1px solid rgb(200,200,200);
+  padding: 4px 0 2px 8px;
+  font: normal 0.75em Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-top: none;
+  border-left: none;
+  background: url(../images/body/form-textfield_bg.gif) no-repeat left top;
+}
+
+#sideBar form input.button {
+  font: normal 0.75em Tahoma, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#sideBar form input.imgButton {
+  vertical-align: middle;
+  padding-bottom: 3px;
+}
+
+
+/* ---- side bar links ----------------------------------------------------------- */
+
+#sideBar ul li a.addInstrument, #sideBar ul li a.addInstrument:link, #sideBar ul li a.addInstrument:visited {
+  padding-bottom: 3px;
+  background: url(../images/icons/inst_add.gif) no-repeat center top;
+}
+#sideBar ul li a.delInstrument, #sideBar ul li a.delInstrument:link, #sideBar ul li a.delInstrument:visited {
+  padding-bottom: 3px;
+  background: url(../images/icons/inst_del.gif) no-repeat center top;
+}
+#sideBar ul li a.deleteItem, #sideBar ul li a.deleteItem:link, #sideBar ul li a.deleteItem:visited {
+  padding-bottom: 3px;
+  background: url(../images/icons/delete_lg.gif) no-repeat center top;
+}
+#sideBar ul li a.newTicket, #sideBar ul li a.newTicket:link, #sideBar ul li a.newTicket:visited {
+  padding-bottom: 3px;
+  letter-spacing: -1px;
+  background: url(../images/icons/ticket_work.gif) no-repeat center top;
+}
+#sideBar ul li a.logWork, #sideBar ul li a.logWork:link, #sideBar ul li a.logWork:visited {
+  padding-bottom: 3px;
+  background: url(../images/icons/work_log.gif) no-repeat center top;
+}
+#sideBar ul li a.generateReport, #sideBar ul li a.generateReport:link, #sideBar ul li a.generateReport:visited {
+  padding-bottom: 3px;
+   background: url(../images/icons/report_gen.gif) no-repeat center top;
+}
+
+
+#sideBar ul li a:hover, #sideBar ul li a:active, #sideBar ul li a:focus {
+  color: rgb(201,49,49);
+  text-decoration: underline;
+}
+#sideBar ul li a.deleteItem:hover, #sideBar ul li a.deleteItem:active, #sideBar ul li a.deleteItem:focus {
+  background-image: url(../images/icons/delete_lg-over.gif);
+}
+#sideBar ul li a.delInstrument:hover, #sideBar ul li a.delInstrument:active, #sideBar ul li a.delInstrument:focus {
+  background-image: url(../images/icons/inst_del-over.gif);
+}
+
+/* ---- side bar li backgrounds ----------------------------------------------------------- */
+
+#sideBar ul.quicksearch li.viewTicket {
+  padding: 30px 0 0 0;
+  background: url(../images/icons/ticket_plain.gif) no-repeat center top;
+}
+#sideBar ul.quicksearch li.viewJob {
+  padding: 30px 0 0 0;
+  background: url(../images/icons/work_log.gif) no-repeat center top;
+}
+#sideBar ul.quicksearch li.viewInstrument {
+  padding: 30px 0 0 0;
+  background: url(../images/icons/inst_plain.gif) no-repeat center top;
+}

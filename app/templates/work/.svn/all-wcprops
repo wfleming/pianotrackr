@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/pianotrackr/!svn/ver/291/app/templates/work
+END
+_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/pianotrackr/!svn/ver/291/app/templates/work/_form.tpl
+END
+create.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pianotrackr/!svn/ver/106/app/templates/work/create.tpl
+END
+listall.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/pianotrackr/!svn/ver/290/app/templates/work/listall.tpl
+END
+edit.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pianotrackr/!svn/ver/254/app/templates/work/edit.tpl
+END
+_formTuning.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pianotrackr/!svn/ver/253/app/templates/work/_formTuning.tpl
+END
+thanks.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pianotrackr/!svn/ver/230/app/templates/work/thanks.tpl
+END
+_formProcedure.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/pianotrackr/!svn/ver/266/app/templates/work/_formProcedure.tpl
+END
